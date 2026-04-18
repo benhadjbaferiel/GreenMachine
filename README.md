@@ -1,5 +1,13 @@
 # ♻️ GreenMachine — Smart Recycling Machine Admin Dashboard
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.10+-02569B?logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-3.10+-0175C2?logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20(Render)-339933?logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-Private-red" />
+</p>
+
 **GreenMachine** is a cross-platform Flutter admin dashboard for monitoring and managing a fleet of Reverse Vending Machines (RVMs) deployed across Algeria. It provides real-time tracking, analytics, worker dispatch, and alert management — all from a single, premium interface.
 
 ---
@@ -170,6 +178,7 @@ Base URL: https://rvm-backend-oaot.onrender.com
 
 ---
 
+## 🌍 Localization
 
 The app supports **3 languages** with built-in translations:
 
@@ -177,3 +186,16 @@ The app supports **3 languages** with built-in translations:
 - 🇬🇧 **English**
 - 🇩🇿 **العربية** (Arabic)
 
+Language preference is persisted locally using `SharedPreferences`.
+
+---
+
+## 👥 Authors
+
+- **Ben Hadj Baferiel** — [GitHub](https://github.com/benhadjbaferiel)
+
+---
+
+## 📄 License
+
+This project is private and not licensed for public distribution.
