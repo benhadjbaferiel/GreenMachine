@@ -188,14 +188,3 @@ The app supports **3 languages** with built-in translations:
 
 Language preference is persisted locally using `SharedPreferences`.
 
----
-
-## 👥 Authors
-
-- **Ben Hadj Baferiel** — [GitHub](https://github.com/benhadjbaferiel)
-
----
-
-## 📄 License
-
-This project is private and not licensed for public distribution.
