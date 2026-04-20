@@ -16,17 +16,17 @@
 
 | Feature | Description |
 |---|---|
-| 🔐 **Secure Login** | Email/password authentication with forgot-password flow |
-| 📊 **Dashboard** | Live stats (aluminum, plastic, machine count) + interactive OpenStreetMap |
-| 🏭 **Machine Management** | Add, view details, update status (online/offline/broken), delete machines |
-| 👷 **Worker Management** | Create, assign, and track technicians & bin-emptiers (videurs) |
-| 📈 **Analytics** | Recycling trends, pie charts, bar charts by wilaya, KPI cards, critical alerts |
-| 🔔 **Notifications** | Real-time alert system with worker assignment for breakdowns & fill-level warnings |
-| ⚙️ **Settings** | Dark/Light theme, multi-language (🇫🇷 Français, 🇬🇧 English, 🇩🇿 العربية), password change |
+|  **Secure Login** | Email/password authentication with forgot-password flow |
+|  **Dashboard** | Live stats (aluminum, plastic, machine count) + interactive OpenStreetMap |
+|  **Machine Management** | Add, view details, update status (online/offline/broken), delete machines |
+|  **Worker Management** | Create, assign, and track technicians & bin-emptiers (videurs) |
+|  **Analytics** | Recycling trends, pie charts, bar charts by wilaya, KPI cards, critical alerts |
+|  **Notifications** | Real-time alert system with worker assignment for breakdowns & fill-level warnings |
+|  **Settings** | Dark/Light theme, multi-language (🇫🇷 Français, 🇬🇧 English, 🇩🇿 العربية), password change |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The app follows a clean **Provider-based** state management pattern with a clear separation of concerns:
 
@@ -58,7 +58,7 @@ lib/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -75,7 +75,7 @@ lib/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -102,38 +102,38 @@ flutter run
 
 | Platform | Status |
 |---|---|
-| 🌐 Web | ✅ Supported |
-| 🤖 Android | ✅ Supported |
-| 🍎 iOS | ✅ Supported |
-| 🪟 Windows | ✅ Supported |
-| 🐧 Linux | ✅ Supported |
-| 🍏 macOS | ✅ Supported |
+|  Web |  Supported |
+|  Android |  Supported |
+|  iOS |  Supported |
+|  Windows |  Supported |
+|  Linux |  Supported |
+|  macOS |  Supported |
 
 ---
 
-## 🗺️ Key Pages
+##  Key Pages
 
-### 🔐 Login
+###  Login
 Premium split-screen login with form validation, show/hide password toggle, and forgot-password dialog. Responsive layout adapts for mobile and desktop.
 
-### 📊 Dashboard
+###  Dashboard
 - **Stats cards**: Total aluminum (kg), total plastic (kg), machine count
 - **Interactive map**: Live markers colored by machine status (🟢 Online, 🟠 Offline, 🔴 Broken)
 - **Notifications bell**: Badge with unread count, assign workers to alerts
 
-### 🏭 Machines
+###  Machines
 - Machine table with search & status filters (All / Online / Offline / Broken)
 - Add machine dialog with geo-coded location (auto-resolves city & address from coordinates)
 - Detail modal with full machine info, photo link, AI accuracy, and status management
 - Per-machine alert history with type filtering
 
-### 👷 Workers
+###  Workers
 - Dashboard stats: total workers, technicians in intervention, available bin-emptiers, pending tasks
 - Worker cards with avatar, role badge, status indicator, and action buttons
 - Add/Delete workers with role selection and city assignment
 - Profile bottom sheet & intervention history dialog
 
-### 📈 Analytics
+###  Analytics
 - KPI grid: Total machines, pending collections, plastic/aluminum weight with growth indicators
 - Recycling trend line chart (7D / 14D / 30D / 90D periods)
 - Distribution pie chart (PET vs ALU)
@@ -141,14 +141,14 @@ Premium split-screen login with form validation, show/hide password toggle, and 
 - Critical alerts list & detailed machine inventory table
 - City filter dropdown with all 58 Algerian wilayas
 
-### ⚙️ Settings
+###  Settings
 - Dark / Light theme toggle (persisted)
 - Language switcher: Français, English, العربية
 - Change password (calls backend API)
 
 ---
 
-## 🔌 Backend API
+##  Backend API
 
 The app communicates with a REST API hosted on Render:
 
@@ -178,7 +178,7 @@ Base URL: https://rvm-backend-oaot.onrender.com
 
 ---
 
-## 🌍 Localization
+##  Localization
 
 The app supports **3 languages** with built-in translations:
 
